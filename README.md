@@ -28,7 +28,7 @@ This repository is organized to clearly separate data processing, analysis, and 
   Includes exported charts and dashboard visuals generated from the analysis for quick viewing without running the code.
 
 - **data/**  
-  Stores the raw and/or processed dataset used in the analysis.
+  Stores the processed dataset used in the analysis.
 
 Viewers can explore the **notebooks** folder to review the full Python workflow and code logic, or browse the **images** folder to quickly view the final visualizations.
 - 📓 [View Analysis Notebook](notebooks/analysis.ipynb)
