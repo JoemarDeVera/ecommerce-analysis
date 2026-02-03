@@ -18,7 +18,23 @@ Create a visual dashboard that summarizes key business metrics
 
 Present insights in a format suitable for stakeholders and decision-makers
 
-##  Dataset Description
+## Project Structure & Navigation
+This repository is organized to clearly separate data processing, analysis, and visual outputs:
+
+- **notebooks/**  
+  Contains the Jupyter Notebook used for data cleaning, analysis, pivot table creation, and dashboard visualizations using Python.
+
+- **images/**  
+  Includes exported charts and dashboard visuals generated from the analysis for quick viewing without running the code.
+
+- **data/**  
+  Stores the raw and/or processed dataset used in the analysis.
+
+Viewers can explore the **notebooks** folder to review the full Python workflow and code logic, or browse the **images** folder to quickly view the final visualizations.
+- 📓 [View Analysis Notebook](notebooks/analysis.ipynb)
+- 📊 [View Visualizations](images/)
+
+## Dataset Description
 Order Date – Date when the order was placed
 
 Product Name – Name of the product sold
@@ -33,7 +49,7 @@ Sales – Total sales value
 
 Profit – Profit earned per 
 
-# Tools & Technologies Used 
+## Tools & Technologies Used 
 Python
 
 Pandas – Data cleaning and manipulation
